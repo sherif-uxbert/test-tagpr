@@ -1,5 +1,9 @@
 # .github/workflows/tagpr.yml
 
+on:
+  push:
+    branches:
+      - maingit 
 steps:
   - name: Checkout
     uses: actions/checkout@v4
